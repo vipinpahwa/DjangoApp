@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BHARAT VOTES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    {% block content %}
+    <h1>First Heading</h1>
+    <p>Kaise ho {{name}}</p>
+    <form action="add" method="post">
+        {% csrf_token %}
+        Enter first number:<input type="number" name="num1"><br>
+        Enter second number:<input type="number" name="num2"><br>
+        <input type="submit" value="Add">
+
+    </form>
+    {% endblock %}
+</body>
+</html>

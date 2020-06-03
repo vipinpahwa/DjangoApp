@@ -1,0 +1,72 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(National-Emblem-of-India.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul
+{
+	float: right;
+	margin-top: 20px;
+}
+ul li
+{
+	display: inline-block;
+}
+ul li a
+{
+	text-decoration: none;
+	color: #ffa500;
+	padding: 10px 20px;
+	border: 1px solid;
+	transition: 0.6s ease;
+
+}
+ul li a:hover
+{
+	background-color: #fff;
+	color: #ffa500;
+}
+.logo img
+{
+	float: left;
+	width: 150px;
+	height: auto;
+	margin-left: 10px;
+}
+.title
+{
+	position: absolute;
+	top: 40%;
+	left: 35%;
+}
+.title h1
+{
+	color: #ffa500;
+	font-size: 70px;
+
+}
+.button
+{
+	position: absolute;
+	top: 55%;
+	left: 36%;
+}
+.btn
+{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #ffa500;
+}
+.btn:hover
+{
+	background-color: #fff;
+	color: #ffa500;
+}
